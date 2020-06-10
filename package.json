@@ -1,0 +1,33 @@
+{
+  "name": "localforage-expo-filesystem-driver",
+  "version": "0.0.1",
+  "description": "Custom localforage driver using expo-filesystem",
+  "main": "dist/index.js",
+  "repository": "https://github.com/robertherber/localforage-expo-filesystem-driver",
+  "author": "Robert Herber",
+  "license": "MIT",
+  "dependencies": {
+    "expo-file-system": "^8.1.0",
+    "localforage": "^1.7.4",
+    "react": "^16.13.1"
+  },
+  "scripts": {
+    "test": "tsc --noEmit && yarn lint",
+    "lint": "eslint src",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.2.0",
+    "@typescript-eslint/parser": "^3.2.0",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jest": "^23.13.2",
+    "eslint-plugin-json": "^2.1.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.4",
+    "eslint-plugin-react-native": "^3.8.1",
+    "typescript": "^3.9.5"
+  }
+}
