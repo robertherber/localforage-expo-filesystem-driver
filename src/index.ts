@@ -1,7 +1,7 @@
-import localForage from 'localforage';
+import 'localforage';
 import * as FileSystem from 'expo-file-system';
 
-const driverKey = 'localforage-fs-driver';
+export const driverKey = 'localforage-fs-driver';
 
 interface FsDriver extends LocalForageDriver {
   __directory: string;
