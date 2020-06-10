@@ -1,6 +1,6 @@
 {
   "name": "localforage-expo-filesystem-driver",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Custom localforage driver using expo-filesystem",
   "main": "dist/index.js",
   "repository": "https://github.com/robertherber/localforage-expo-filesystem-driver",
