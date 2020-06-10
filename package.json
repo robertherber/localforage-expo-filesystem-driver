@@ -1,6 +1,6 @@
 {
   "name": "localforage-expo-filesystem-driver",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Custom localforage driver using expo-filesystem",
   "main": "dist/index.js",
   "repository": "https://github.com/robertherber/localforage-expo-filesystem-driver",
@@ -14,7 +14,8 @@
   "scripts": {
     "test": "tsc --noEmit && yarn lint",
     "lint": "eslint src",
-    "build": "tsc"
+    "build": "tsc",
+    "prepublish": "yarn test && yarn build"
   },
   "files": [
     "dist"
