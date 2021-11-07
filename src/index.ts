@@ -64,7 +64,7 @@ const fsDriver: FsDriver = {
       const data = JSON.parse(file); // eslint-disable-line @typescript-eslint/no-unsafe-assignment
 
       if (callback) {
-        callback(null, data);
+        callback(null, data); // eslint-disable-line @typescript-eslint/no-unsafe-argument
       }
 
       return data; // eslint-disable-line @typescript-eslint/no-unsafe-return
@@ -95,7 +95,7 @@ const fsDriver: FsDriver = {
       // to the iterator.
 
       const value = iterator(
-        item as any, // eslint-disable-line @typescript-eslint/no-explicit-any
+        item as any, // eslint-disable-line @typescript-eslint/no-explicit-any, @typescript-eslint/no-unsafe-argument
         key,
         iterationNumber++,
       );
